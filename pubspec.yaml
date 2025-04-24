@@ -1,6 +1,7 @@
 name: chat_simulator
-description: A new Flutter project.
-publish_to: 'none'
+description: Demo chat simulation app
+
+publish_to: "none"
 version: 1.0.0+1
 
 environment:
@@ -9,11 +10,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  provider: ^6.0.0
   cupertino_icons: ^1.0.2
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
+
+dependencies:
+  shared_preferences: ^2.0.15

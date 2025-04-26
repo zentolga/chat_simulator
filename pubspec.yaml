@@ -1,6 +1,6 @@
-name: chat_simulator_fixed
-description: A chat simulation app
-publish_to: "none"
+name: chat_simulator
+description: A new Flutter project.
+publish_to: 'none'
 version: 1.0.0+1
 
 environment:
@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_swipable: ^1.1.0
+  cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
